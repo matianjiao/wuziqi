@@ -1,0 +1,118 @@
+body{
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px;
+	background: url("../image/bei.jpg");
+}
+.kuang{
+	width: 595px;
+	height: 598px;
+	position: relative;
+	margin: 50px auto;
+	/*margin-left: -10px;*/
+}
+.tou{
+	width: 120px;
+	height: 120px;
+	border-radius: 20px;
+	background-size: cover;
+	position: absolute;
+	top:45%;
+}
+.heifang{
+	left: 10%;
+	background-image: url("../image/tou1.jpg");
+}
+.baifang{
+	right: 10%;
+	background-image: url("../image/tou2.jpg");
+}
+.qitu{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: absolute;
+	top:60%;
+}
+.baiqi{
+	left: -20%;
+	background:url("../image/bai.png");
+}
+.heiqi{
+	left: -20%;
+	background:url("../image/hei.png");
+}
+.renshu{
+	width: 90px;
+	height: 40px;
+	position: absolute;
+	top: 150px;
+	background: url("../image/renshu.png");
+}
+#ren1{
+	left: 11%;
+}
+#ren2{
+	right: 10%;
+}
+#game{
+	width: 550px;
+	height: 550px;
+	/*background:#CDDC39; */
+	/*border: 1px solid #CDDC39;*/
+	background-size:cover; 
+	background-image:url("../image/bei.png");
+	position: absolute;
+	top:20px;
+	left: 21px;
+	box-shadow: 0 0 20px black;
+}
+.xiao{
+	margin: 0 1px 1px 0;
+	float: left;
+	position: relative;
+
+}
+.zhezhao{
+	width: 100%;
+	height: 700px;
+	background-color:rgba(0,0,0,0.8);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 3em;
+	color: #0ff;
+	z-index: 20;
+	display: none;
+	text-align: center;
+}
+.heiying,.baiying{
+	width: 450px;
+	height: 300px;
+	margin:100px auto 0px; 
+}
+#zhezhao1{
+	/*display: block;*/
+}
+#zhezhao2{
+	/*display: block;*/
+}
+#zhezhao3{
+	/*display: block;*/
+}
+#zhezhao4{
+	/*display: block;*/
+}
+.anniu{
+	width: 220px;
+	height: 49px;
+	font-size: 30px;
+	border-radius: 10px;
+	margin: 50px auto;
+	background: url("../image/anniu.png");
+	margin: 30px auto 0px;
+}
+span{
+	padding: 12px 20px;
+	display: inline-block;
+}
